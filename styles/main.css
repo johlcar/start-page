@@ -1,3 +1,8 @@
+body{
+    font-size: 100%;
+}
+
+/* Flex box formatting */
 .container {
     display: flex;
     flex-direction: column;
@@ -5,4 +10,68 @@
 
 .container-body {
     display: flex;
+}
+
+/* Header formatting */
+.date{
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 300;
+}
+
+time {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 4.2em;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* Link list formatting */
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 30em;
+}
+
+li {
+    background: gray;
+    width: 5em;
+    height: 5em;
+    margin: .5em;
+}
+
+/* Search box formatting */
+.search-box {
+    width: 100%;
+    padding: 15px;
+    background-color: #434C5E;
+    color: #F0EEE3;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    transition: 0.2s;
+}
+
+.search-box:focus {
+    background-color: #4C566A;
+}
+
+/* footer formatting */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 300;
 }
