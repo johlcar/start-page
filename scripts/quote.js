@@ -8,5 +8,6 @@ var quotes = ["And a step backward, after making a wrong turn, is a step in the 
 "Don't ask for a lighter load, ask for a stronger back. <br/>- Phillips Brooks", "Good judgement comes from experience and experience comes from bad judgement. <br/>- Anonymous",
 "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world. <br/>- Albert Einstein"]
 
-var randomQuote = quotes[Math.floor(Math.random()*quotes.length)];
-document.getElementById('quote').innerHTML = randomQuote;
+    var randomQuote = quotes[Math.floor(Math.random()*quotes.length)];
+
+    document.getElementById('quote').innerHTML = randomQuote;
